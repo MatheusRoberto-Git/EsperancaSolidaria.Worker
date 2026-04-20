@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EsperancaSolidaria.Worker.Infrastructure/EsperancaSolidaria.Worker.Infrastructure.csproj" />
+    <Project Path="src/EsperancaSolidaria.Worker/EsperancaSolidaria.Worker.csproj" />
+  </Folder>
+</Solution>
