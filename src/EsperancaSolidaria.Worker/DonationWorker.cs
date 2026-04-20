@@ -1,3 +1,5 @@
+using EsperancaSolidaria.Worker.Events;
+using EsperancaSolidaria.Worker.Infrastructure.Repositories;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
@@ -11,7 +13,7 @@ namespace EsperancaSolidaria.Worker
         private readonly ConnectionFactory _factory;
         private IConnection? _connection;
         private IChannel? _channel;
-        private const string QUEUE_NAME = "DoacaoRecebidaEvent";
+        private const string QUEUE_NAME = "DonationReceivedEvent";
 
         public DonationWorker(IServiceScopeFactory scopeFactory, ConnectionFactory factory)
         {
