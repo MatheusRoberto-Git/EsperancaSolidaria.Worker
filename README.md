@@ -151,3 +151,7 @@ A fila `DonationReceivedEvent` ficará visível com contagem de mensagens penden
 | `Settings__RabbitMq__HostName` | Host do RabbitMQ |
 | `Settings__RabbitMq__UserName` | Usuário do RabbitMQ |
 | `Settings__RabbitMq__Password` | Senha do RabbitMQ |
+
+## Arquitetura
+
+![Arquitetura Conexão Solidária](architecture.svg)
