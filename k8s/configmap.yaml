@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: worker-config
+data:
+  DOTNET_ENVIRONMENT: "Development"
+  Settings__RabbitMq__HostName: "rabbitmq"
+  Settings__RabbitMq__UserName: "guest"
+  Settings__RabbitMq__Password: "guest"

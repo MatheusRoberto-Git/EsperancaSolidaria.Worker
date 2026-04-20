@@ -3,6 +3,7 @@ using EsperancaSolidaria.Worker.Infrastructure;
 
 var builder = Host.CreateApplicationBuilder(args);
 
+builder.Services.AddHealthChecks();
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddHostedService<DonationWorker>();
 
